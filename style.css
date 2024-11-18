@@ -2,3 +2,26 @@ body{
     text-align: center;
     align-items: center;
 }
+.bat {
+    height: 50px;
+    width:70px;
+    font-size: larger;
+    border-radius: 6px;
+    background-color: rgb(213, 140, 51);
+
+}
+.ball {
+    height: 50px;
+    width:70px;
+    margin:20px;
+    font-size: larger;
+    border-radius: 6px;
+    background-color: rgb(204, 88, 88);
+}
+.stump {
+    height: 50px;
+    width:70px;
+    font-size: larger;
+    border-radius: 6px;
+    background-color: rgb(175, 22, 22);
+}
