@@ -1,27 +1,35 @@
-body{
+body{margin-top: 180px;
     text-align: center;
     align-items: center;
 }
 .bat {
-    height: 50px;
-    width:70px;
+    height: 51px;
+    width:71px;
     font-size: larger;
-    border-radius: 6px;
-    background-color: rgb(213, 140, 51);
+    border-radius: 5px;
+    background-color: rgb(68, 138, 191);
 
 }
 .ball {
-    height: 50px;
-    width:70px;
-    margin:20px;
+    height: 51px;
+    width:71px;
+    margin:21px;
     font-size: larger;
-    border-radius: 6px;
-    background-color: rgb(204, 88, 88);
+    border-radius: 5px;
+    background-color: rgb(210, 22, 22);
 }
 .stump {
-    height: 50px;
-    width:70px;
+    height: 51px;
+    width:71px;
     font-size: larger;
-    border-radius: 6px;
-    background-color: rgb(175, 22, 22);
+    border-radius: 5px;
+    background-color: rgb(175, 22, 104);
+}
+.heading{
+    color: chocolate;
+    font-size: 4em;
+}
+.footer{
+    color:rgb(42, 22, 38);
+    font-size: xx-large;
 }
