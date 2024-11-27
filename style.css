@@ -1,5 +1,5 @@
 body{
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
     align-items: center;
 }
@@ -43,4 +43,13 @@ body{
     text-align: center;
     font-size: large;
 
+}
+.Score{
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(231, 150, 56);
+    border-radius: 8px;
+    text-align: center;
+    font-size: large;
 }

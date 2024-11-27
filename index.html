@@ -18,13 +18,19 @@
       const UserChoiceMsg = ('You have chosen Bat');
 
   let resultMsg;
-    if(computerChoice === 'Ball')
-     {resultMsg = 'You Won';}
+    if(computerChoice === 'Ball'){
+     score.Win++;
+     resultMsg = 'You Won';
+
+     }
     else if(computerChoice === 'Stump'){
+      score.lose++;
       resultMsg = 'You Loss';
+     
     }
     else if(computerChoice === 'Bat'){
       resultMsg = 'Tied';
+      score.Tie++;
     }
 
     document.querySelector('#result').value = resultMsg ;
@@ -91,8 +97,19 @@
       />
     </div>
     <input class="choice" id="result" type="text" placeholder="Result" readonly/>
+    <div><input class="Score" type="text" readonly></div>
 
     <script>
+      let score ={
+        Win:0,
+        lose:0,
+        Tie:0,
+        displayScore: function(){
+          return `Won:${score.Win}, Lost:${score.lose},Tied:${score.Tie}`;
+      
+        }
+      };
+
       let computerChoice;
       function generateComputerChoice() {
         let randomNumber = Math.random() * 3;
@@ -107,7 +124,10 @@
           computerChoice = "Stump";
         }
         computerChoiceMsg = `Computer choice is ${computerChoice}`;
+
+        console.log(score.displayScore());
       }
+      document.querySelector('.Score').value = score.displayScore();
     </script>
   </body>
 </html>
