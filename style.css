@@ -1,55 +1,55 @@
 body{
-    margin-top: 50px;
+    margin-top: 51px;
     text-align: center;
     align-items: center;
 }
 .bat {
-    height: 51px;
-    width:71px;
+    height: 50px;
+    width:70px;
     font-size: larger;
-    border-radius: 5px;
-    background-color: rgb(68, 138, 191);
+    border-radius: 6px;
+    background-color: rgb(68, 179, 191);
 
 }
 .ball {
-    height: 51px;
-    width:71px;
-    margin:21px;
+    height: 50px;
+    width:70px;
+    margin:20px;
     font-size: larger;
     border-radius: 5px;
-    background-color: rgb(210, 22, 22);
+    background-color: rgb(193, 44, 44);
 }
 .stump {
-    height: 51px;
-    width:71px;
+    height: 50px;
+    width:70px;
     font-size: larger;
     border-radius: 5px;
-    background-color: rgb(175, 22, 104);
+    background-color: rgb(146, 50, 101);
 }
 .heading{
-    color: chocolate;
+    color: rgb(109, 67, 37);
     font-size: 4em;
 }
 .footer{
-    color:rgb(42, 22, 38);
+    color:rgb(114, 52, 102);
     font-size: xx-large;
 }
 .choice{
-    height: 30px;
-    width: 150px;
-    margin: 10px;
-    background-color: rgb(231, 150, 56);
-    border-radius: 8px;
+    height: 31px;
+    width: 151px;
+    margin: 11px;
+    background-color: rgb(150, 97, 36);
+    border-radius: 9px;
     text-align: center;
     font-size: large;
 
 }
 .Score{
-    height: 30px;
-    width: 150px;
-    margin: 10px;
-    background-color: rgb(231, 150, 56);
-    border-radius: 8px;
+    height: 31px;
+    width: 152px;
+    margin: 11px;
+    background-color: rgb(176, 118, 51);
+    border-radius: 9px;
     text-align: center;
     font-size: large;
 }
