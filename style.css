@@ -1,5 +1,5 @@
 body{
-    margin-top: 51px;
+    margin-top: 50px;
     text-align: center;
     align-items: center;
 }
@@ -8,7 +8,7 @@ body{
     width:70px;
     font-size: larger;
     border-radius: 6px;
-    background-color: rgb(68, 179, 191);
+    background-color: rgb(82, 200, 213);
 
 }
 .ball {
@@ -17,28 +17,28 @@ body{
     margin:20px;
     font-size: larger;
     border-radius: 5px;
-    background-color: rgb(193, 44, 44);
+    background-color: rgb(221, 73, 73);
 }
 .stump {
     height: 50px;
     width:70px;
     font-size: larger;
     border-radius: 5px;
-    background-color: rgb(146, 50, 101);
+    background-color: rgb(224, 110, 171);
 }
 .heading{
-    color: rgb(109, 67, 37);
+    color: rgb(207, 129, 73);
     font-size: 4em;
 }
 .footer{
-    color:rgb(114, 52, 102);
+    color:rgb(105, 182, 223);
     font-size: xx-large;
 }
 .choice{
     height: 31px;
     width: 151px;
     margin: 11px;
-    background-color: rgb(150, 97, 36);
+    background-color: rgb(226, 154, 72);
     border-radius: 9px;
     text-align: center;
     font-size: large;
@@ -46,9 +46,9 @@ body{
 }
 .Score{
     height: 31px;
-    width: 152px;
+    width: 170px;
     margin: 11px;
-    background-color: rgb(176, 118, 51);
+    background-color: rgb(212, 150, 79);
     border-radius: 9px;
     text-align: center;
     font-size: large;

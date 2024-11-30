@@ -24,7 +24,7 @@
 
      }
     else if(computerChoice === 'Stump'){
-      score.lose++;
+      score.Lose++;
       resultMsg = 'You Loss';
      
     }
@@ -46,13 +46,19 @@
     document.querySelector('#user').value = 'Ball';
 
     if(computerChoice === 'Ball')
-    {resultMsg = ('Tied')}
-    //  else if(computerChoice ==)
+    {
+      resultMsg = ('Tied');
+      score.Lose++;
+
+    }
+  
     else if(computerChoice === 'Stump'){
       resultMsg = ('You won');
+      score.Win++;
     }
     else{
       resultMsg = ('You Loss');
+      score.Lose;
     }
 
     document.querySelector('#result').value = resultMsg ;
@@ -70,13 +76,18 @@
 
     resultMsg = null;
  
-     if(computerChoice === 'Ball') resultMsg = ('You Loss');
+     if(computerChoice === 'Ball')
+     { resultMsg = ('You Loss');
+      score.Lose++ ;
+     }
    
      else if(computerChoice === 'Stump'){
        resultMsg = ('Tied');
+       score.Tie++ ;
      }
      if(computerChoice === 'Bat'){
        resultMsg = ('You won');
+       score.Win++ ;
      }
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
@@ -97,16 +108,15 @@
       />
     </div>
     <input class="choice" id="result" type="text" placeholder="Result" readonly/>
-    <div><input class="Score" type="text" readonly></div>
+    <div><input Id="score-board" class="Score" type="text" readonly placeholder="scoreboard"></div>
 
     <script>
       let score ={
         Win:0,
-        lose:0,
+        Lose:0,
         Tie:0,
         displayScore: function(){
-          return `Won:${score.Win}, Lost:${score.lose},Tied:${score.Tie}`;
-      
+          return `Won:${score.Win}, Lost:${score.Lose},Tied:${score.Tie}`;
         }
       };
 
@@ -126,8 +136,9 @@
         computerChoiceMsg = `Computer choice is ${computerChoice}`;
 
         console.log(score.displayScore());
-      }
-      document.querySelector('.Score').value = score.displayScore();
+        document.querySelector('#score-board').value = score.displayScore();
+      };
+     
     </script>
   </body>
 </html>
