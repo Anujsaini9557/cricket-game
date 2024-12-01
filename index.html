@@ -15,7 +15,7 @@
       onclick="generateComputerChoice();
 
       document.querySelector('#user').value = 'Bat';
-      const UserChoiceMsg = ('You have chosen Bat');
+      // const UserChoiceMsg = ('You have chosen Bat');
 
   let resultMsg;
     if(computerChoice === 'Ball'){
@@ -35,6 +35,8 @@
 
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
+    document.querySelector('#score-board').value = score.displayScore();
+
     "
     >
       Bat
@@ -48,7 +50,7 @@
     if(computerChoice === 'Ball')
     {
       resultMsg = ('Tied');
-      score.Lose++;
+      score.Tie++;
 
     }
   
@@ -58,11 +60,13 @@
     }
     else{
       resultMsg = ('You Loss');
-      score.Lose;
+      score.Lose++;
     }
 
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
+    document.querySelector('#score-board').value = score.displayScore();
+
     "
     >
       Ball
@@ -91,6 +95,8 @@
      }
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
+    document.querySelector('#score-board').value = score.displayScore();
+
 
     "
     >
@@ -136,7 +142,7 @@
         computerChoiceMsg = `Computer choice is ${computerChoice}`;
 
         console.log(score.displayScore());
-        document.querySelector('#score-board').value = score.displayScore();
+        // document.querySelector('#score-board').value = score.displayScore();
       };
      
     </script>

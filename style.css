@@ -8,7 +8,7 @@ body{
     width:70px;
     font-size: larger;
     border-radius: 6px;
-    background-color: rgb(82, 200, 213);
+    background-color: rgb(71, 204, 218);
 
 }
 .ball {
@@ -27,11 +27,11 @@ body{
     background-color: rgb(224, 110, 171);
 }
 .heading{
-    color: rgb(207, 129, 73);
+    color: rgb(209, 102, 26);
     font-size: 4em;
 }
 .footer{
-    color:rgb(105, 182, 223);
+    color:rgb(88, 175, 221);
     font-size: xx-large;
 }
 .choice{
@@ -46,8 +46,9 @@ body{
 }
 .Score{
     height: 31px;
-    width: 170px;
+    width: 200px;
     margin: 11px;
+    padding: 5px 30px;
     background-color: rgb(212, 150, 79);
     border-radius: 9px;
     text-align: center;
