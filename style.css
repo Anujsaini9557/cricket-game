@@ -1,33 +1,33 @@
 body{
-    margin-top: 50px;
+    margin-top: 51px;
     text-align: center;
     align-items: center;
 }
 .bat {
-    height: 50px;
-    width:70px;
+    height: 51px;
+    width:71px;
     font-size: larger;
-    border-radius: 6px;
+    border-radius: 7px;
     background-color: rgb(71, 204, 218);
 
 }
 .ball {
-    height: 50px;
-    width:70px;
-    margin:20px;
+    height: 51px;
+    width:71px;
+    margin:21px;
     font-size: larger;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: rgb(221, 73, 73);
 }
 .stump {
-    height: 50px;
-    width:70px;
+    height: 51px;
+    width:71px;
     font-size: larger;
-    border-radius: 5px;
+    border-radius: 1px;
     background-color: rgb(224, 110, 171);
 }
 .heading{
-    color: rgb(209, 102, 26);
+    color: rgb(210, 102, 26);
     font-size: 4em;
 }
 .footer{
@@ -35,9 +35,9 @@ body{
     font-size: xx-large;
 }
 .choice{
-    height: 31px;
-    width: 151px;
-    margin: 11px;
+    height: 32px;
+    width: 152px;
+    margin: 12px;
     background-color: rgb(226, 154, 72);
     border-radius: 9px;
     text-align: center;
