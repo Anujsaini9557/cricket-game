@@ -1,29 +1,30 @@
 body{
-    margin-top: 51px;
-    text-align: center;
+    margin-top: 50px;
     align-items: center;
+    text-align: center;
+    
 }
 .bat {
-    height: 51px;
-    width:71px;
+    height: 50px;
+    width:70px;
     font-size: larger;
-    border-radius: 7px;
-    background-color: rgb(71, 204, 218);
+    border-radius: 6px;
+    background-color: rgb(43, 182, 198);
 
 }
 .ball {
-    height: 51px;
-    width:71px;
-    margin:21px;
+    height: 50px;
+    width:70px;
+    margin:20px;
     font-size: larger;
-    border-radius: 6px;
-    background-color: rgb(221, 73, 73);
+    border-radius: 5px;
+    background-color: rgb(210, 68, 68);
 }
 .stump {
     height: 51px;
     width:71px;
     font-size: larger;
-    border-radius: 1px;
+    border-radius: 5px;
     background-color: rgb(224, 110, 171);
 }
 .heading{
@@ -35,22 +36,22 @@ body{
     font-size: xx-large;
 }
 .choice{
-    height: 32px;
-    width: 152px;
-    margin: 12px;
+    height: 34px;
+    width: 15px;
+    margin: 14px;
     background-color: rgb(226, 154, 72);
-    border-radius: 9px;
+    border-radius: 8px;
     text-align: center;
     font-size: large;
 
 }
 .Score{
-    height: 31px;
+    height: 30px;
     width: 200px;
-    margin: 11px;
-    padding: 5px 30px;
+    margin: 10px;
+    padding: 5px 32px;
     background-color: rgb(212, 150, 79);
-    border-radius: 9px;
+    border-radius: 10px;
     text-align: center;
     font-size: large;
 }
