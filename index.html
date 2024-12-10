@@ -11,9 +11,8 @@
     <h1 class="heading">Cricket Game</h1>
     <h2 class="footer">Make Your Choice</h2>
     <button
-      class="bat"
+      class="btn bat"
       onclick="generateComputerChoice();
-
       document.querySelector('#user').value = 'Bat';
       // const UserChoiceMsg = ('You have chosen Bat');
 
@@ -21,12 +20,10 @@
     if(computerChoice === 'Ball'){
      score.Win++;
      resultMsg = 'You Won';
-
      }
     else if(computerChoice === 'Stump'){
       score.Lose++;
       resultMsg = 'You Loss';
-     
     }
     else if(computerChoice === 'Bat'){
       resultMsg = 'Tied';
@@ -36,29 +33,23 @@
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
     document.querySelector('#score-board').value = score.displayScore();
-
     "
     >
       Bat
     </button>
 
     <button
-      class="ball"
+      class="btn ball"
       onclick="generateComputerChoice();
     document.querySelector('#user').value = 'Ball';
 
-    if(computerChoice === 'Ball')
-    {
+    if(computerChoice === 'Ball') {
       resultMsg = ('Tied');
       score.Tie++;
-
-    }
-  
-    else if(computerChoice === 'Stump'){
+    } else if(computerChoice === 'Stump'){
       resultMsg = ('You won');
       score.Win++;
-    }
-    else{
+    } else{
       resultMsg = ('You Loss');
       score.Lose++;
     }
@@ -66,16 +57,14 @@
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
     document.querySelector('#score-board').value = score.displayScore();
-
     "
     >
       Ball
     </button>
 
     <button
-      class="stump"
-      onclick="
-   generateComputerChoice();
+      class="btn stump"
+      onclick=" generateComputerChoice();
    document.querySelector('#user').value = 'Stump';
 
     resultMsg = null;
@@ -96,8 +85,6 @@
     document.querySelector('#result').value = resultMsg ;
     document.querySelector('#opponent').value = computerChoice ;
     document.querySelector('#score-board').value = score.displayScore();
-
-
     "
     >
       Stump
@@ -105,25 +92,46 @@
 
     <h2 class="footer">Result</h2>
     <div>
-      <input class="choice" id="user" type="text" placeholder="Your choice" readonly />
       <input
-        class="choice"
-        id="opponent" readonly
+        class="btn user"
+        id="user"
         type="text"
-        placeholder="opponent choice"
+        placeholder="You"
+        readonly
+      />
+      <input
+        class="btn opponent"
+        id="opponent"
+        readonly
+        type="text"
+        placeholder="Computer"
       />
     </div>
-    <input class="choice" id="result" type="text" placeholder="Result" readonly/>
-    <div><input Id="score-board" class="Score" type="text" readonly placeholder="scoreboard"></div>
+    <input
+      class="btn choice"
+      id="result"
+      type="text"
+      placeholder="Result"
+      readonly
+    />
+    <div>
+      <input
+        id="score-board"
+        class="btn Score"
+        type="text"
+        readonly
+        placeholder="scoreboard"
+      />
+    </div>
 
     <script>
-      let score ={
-        Win:0,
-        Lose:0,
-        Tie:0,
-        displayScore: function(){
+      let score = {
+        Win: 0,
+        Lose: 0,
+        Tie: 0,
+        displayScore: function () {
           return `Won:${score.Win}, Lost:${score.Lose},Tied:${score.Tie}`;
-        }
+        },
       };
 
       let computerChoice;
@@ -143,8 +151,7 @@
 
         console.log(score.displayScore());
         // document.querySelector('#score-board').value = score.displayScore();
-      };
-     
+      }
     </script>
   </body>
 </html>

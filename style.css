@@ -1,57 +1,44 @@
-body{
-    margin-top: 50px;
-    align-items: center;
-    text-align: center;
-    
+body {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+input {
+  width: 100px;
+}
+.btn {
+  padding: 8px 16px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
 }
 .bat {
-    height: 50px;
-    width:70px;
-    font-size: larger;
-    border-radius: 6px;
-    background-color: rgb(43, 182, 198);
-
+  background-color: rgb(43, 182, 198);
 }
 .ball {
-    height: 50px;
-    width:70px;
-    margin:20px;
-    font-size: larger;
-    border-radius: 5px;
-    background-color: rgb(210, 68, 68);
+  background-color: rgb(210, 68, 68);
 }
 .stump {
-    height: 51px;
-    width:71px;
-    font-size: larger;
-    border-radius: 5px;
-    background-color: rgb(224, 110, 171);
+  background-color: rgb(224, 110, 171);
 }
-.heading{
-    color: rgb(210, 102, 26);
-    font-size: 4em;
+.heading {
+  color: rgb(210, 102, 26);
+  font-size: 4em;
 }
-.footer{
-    color:rgb(88, 175, 221);
-    font-size: xx-large;
+.footer {
+  color: rgb(88, 175, 221);
+  font-size: xx-large;
 }
-.choice{
-    height: 34px;
-    width: 15px;
-    margin: 14px;
-    background-color: rgb(226, 154, 72);
-    border-radius: 8px;
-    text-align: center;
-    font-size: large;
-
+.user {
+  background-color: rgb(226, 154, 72);
 }
-.Score{
-    height: 30px;
-    width: 200px;
-    margin: 10px;
-    padding: 5px 32px;
-    background-color: rgb(212, 150, 79);
-    border-radius: 10px;
-    text-align: center;
-    font-size: large;
+.opponent {
+  background-color: rgb(168, 122, 255);
+}
+.choice {
+  background-color: rgb(248, 143, 216);
+}
+.Score {
+  background-color: rgb(212, 150, 79);
+  width: max-content;
 }
