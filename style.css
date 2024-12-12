@@ -13,13 +13,13 @@ input {
   text-align: center;
 }
 .bat {
-  background-color: rgb(43, 182, 198);
+  background-color: rgb(89, 198, 43);
 }
 .ball {
-  background-color: rgb(210, 68, 68);
+  background-color: rgb(246, 69, 11);
 }
 .stump {
-  background-color: rgb(224, 110, 171);
+  background-color: rgb(110, 173, 224);
 }
 .heading {
   color: rgb(210, 102, 26);
@@ -29,14 +29,16 @@ input {
   color: rgb(88, 175, 221);
   font-size: xx-large;
 }
-.user {
+.user {margin: 6px;
   background-color: rgb(226, 154, 72);
 }
 .opponent {
-  background-color: rgb(168, 122, 255);
+  
+  background-color:rgb(226, 154, 72);
 }
 .choice {
-  background-color: rgb(248, 143, 216);
+  margin:10px;
+  background-color:rgb(226, 154, 72);
 }
 .Score {
   background-color: rgb(212, 150, 79);
